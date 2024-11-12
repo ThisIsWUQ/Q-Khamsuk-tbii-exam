@@ -2,5 +2,3 @@ segno
 opencv-python
 pillow
 qrcode-artistic
-qrcode_generator_app
-decode_qrcode_page
