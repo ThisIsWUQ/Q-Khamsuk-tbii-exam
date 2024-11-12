@@ -1,11 +1,12 @@
 import streamlit as st
 import segno
 import time
+import os
 
 #st.set_page_config(page_title="My QR Code App",
 #                   page_icon=":white_check_mark:")
 
-def generate_qrcode():
+def generate_qrcode_page():
     # add a banner
     st.image("https://library-images.kamiapp.com/library/_next/image?url=https:%2F%2Fstorage.googleapis.com%2Fkami-uploads-public%2Flibrary-resource-egxYhSV74CxA-vdSy9m-google-classroom-banner-paint-splats-png&w=3840&q=75")
 
