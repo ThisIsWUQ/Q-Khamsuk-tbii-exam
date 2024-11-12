@@ -22,6 +22,10 @@ def generate_qrcode():
     st.write(url)
 
     def generate_qrcode(url, color):
+        # if directory does not exist, create it
+        directory_path = 'images'
+        os.makedirs(directory_path, exist_ok=True)
+        
         qrcode = segno.make_qr(url)
         qrcode.to_pil(scale=10,
                       dark=color,
