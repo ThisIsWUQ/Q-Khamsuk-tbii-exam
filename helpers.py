@@ -30,7 +30,7 @@ def connect_to_collection(db_name, collection_name):
     client = connect_to_mongo()
 
     # connect to the collection
-    db = client[db_name]
+    db = client.db_name
     collection = db[collection_name]
 
     return collection
